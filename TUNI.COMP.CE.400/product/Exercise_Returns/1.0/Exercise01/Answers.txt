@@ -1,8 +1,7 @@
 INCLUDE ANSWERS IN HERE
 
 1. What is the focus of the exercise project (=all exercises)? Why?
-Hint: Read the exercise project summary from Moodle
-Hint 2: Implementing a video encoder is NOT the focus of the exercises.
+The exercise projects mains at analysing am existing project plus adding missing parts. In this exercise, specifically we generate a makefile used to generate the executable. This mimics the real world case where different we adopt existing IPs, designs or components.
 
 *** PART ONE ***
 
@@ -10,53 +9,63 @@ Some of the questions may involve examining the txt-files generated while encodi
 
 2. How much time did the encoding take? Look at the "Total CPU time".
 
-	QP 50:
-	GROUP QP: 
+	QP 50: 58.844s
+	GROUP QP: 99.977s
 
 3. How many frames were encoded per second (FPS)?
 
-	QP 50:
-	GROUP QP:
+	QP 50: 2.10
+	GROUP QP: 1.22
 
 4. How did decreasing the quantization value affect perceived quality of the video output?
 The image quality became better and not as tiled looking as the QP50 one.
 
 5. How did decreasing the quantization value affect size of the video output file?
-The output size lovered significantly 4331KB --> 895KB.
+The output size increased significantly 895KB --> 4331KB.
 
 7. What was average PSNR?
 
-	QP 50:
-	GROUP QP:
+	QP 50: 34.54447
+	GROUP QP: 39.7034
 
 8. What was the data compression ratio of encoding using your assigned quantization value?
 Data compression ratio is defined as (size of the video input file)/(size of the video output file).
 
-	QP 50:
-	GROUP QP:
+	QP 50: 373.2MB/ 4331KB     = 86.169
+	GROUP QP: 373.2MB/ 895KB   = 416.98
 
 *** PART TWO ***
 
 9. What was average PSNR of the profiling run?
+	35.2072
 
 10. What does parameter -pg do in GCC? How it affects the resulting executable and its execution?
+    -pg is used to collect profiling information to measure performance of a program. The size of the executable does not change, but the execution time increased.
 
 11. Which three (3) functions use most time in Kvazaar? Answer based on the time used by functions
 alone, not by the functions they call.
+	-kvazaar_encode
+	-encoder_state_encode
+	-encode_state_worker_encode_lcu
 
 12. Why it is better to look at percentages rather than absolute time like seconds or milliseconds while
 using a profiling tool (like gprof)?
+	-Gives a more meaniful insight on the functions or sections. Allow us to see the impact of the code/function segement on overall execution.
 
 13. Which function would you choose for hardware acceleration? If there are multiple good candidates, choose one.
+	-kvazaar_encode
 
 14. What does that function do? Why do you think it's a good candidate for hardware acceleration?
+	1. It takes alot of time to execute.
+	2. it is main function that calls other functions.
 Mention at least two reasons.
 Hint: Look at the source code at Kactus2 location TUNI.fi->ip.sw->Kvazaar->0.7.2->src
 
 15. How are you feeling? What was hard? What was easy?
+	-Not really. In between hard and easy.
 
 16. Fill the used hours below, including answering questions and any downtime:
 ANSWER THE HOURS AS IF YOU WERE PAID FOR IT (we will not pay you, though)
 
-	GROUP MEMBER 1:
+	GROUP MEMBER 1: 6 Hours
 	GROUP MEMBER 2:
