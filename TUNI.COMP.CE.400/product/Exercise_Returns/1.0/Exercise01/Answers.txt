@@ -19,8 +19,10 @@ Some of the questions may involve examining the txt-files generated while encodi
 	GROUP QP:
 
 4. How did decreasing the quantization value affect perceived quality of the video output?
+The image quality became better and not as tiled looking as the QP50 one.
 
 5. How did decreasing the quantization value affect size of the video output file?
+The output size lovered significantly 4331KB --> 895KB.
 
 7. What was average PSNR?
 
