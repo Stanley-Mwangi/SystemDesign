@@ -1,0 +1,134 @@
+--owf=auto value set to 0.
+Input: /mnt/hgfs/COMP-CE-400-test-sequences/mReadySteadyGo_1920x1080_120fps_420_8bit_YUV.yuv, output: /mnt/hgfs/P/COMP-CE-400-videos/outputQP50.265
+  Video size: 1920x1080 (input=1920x1080)
+POC    0 QP 50 (I-frame)      69080 bits PSNR: 26.4302 34.5447 35.2652
+POC    1 QP 50 (I-frame)      66752 bits PSNR: 26.4080 34.5816 35.2403
+POC    0 QP 50 (I-frame)      67064 bits PSNR: 26.3996 34.5680 35.2510
+POC    1 QP 50 (I-frame)      67160 bits PSNR: 26.4269 34.4626 35.2165
+POC    0 QP 50 (I-frame)      67200 bits PSNR: 26.4364 34.6192 35.2394
+POC    1 QP 50 (I-frame)      66640 bits PSNR: 26.4088 34.5967 35.2430
+POC    0 QP 50 (I-frame)      67384 bits PSNR: 26.4077 34.5021 35.3026
+POC    1 QP 50 (I-frame)      67432 bits PSNR: 26.3816 34.5467 35.2991
+POC    0 QP 50 (I-frame)      67992 bits PSNR: 26.4096 34.5490 35.2309
+POC    1 QP 50 (I-frame)      67864 bits PSNR: 26.4156 34.5305 35.1850
+POC    0 QP 50 (I-frame)      67504 bits PSNR: 26.4140 34.5250 35.1616
+POC    1 QP 50 (I-frame)      67904 bits PSNR: 26.4041 34.4690 35.2193
+POC    0 QP 50 (I-frame)      68128 bits PSNR: 26.3941 34.4469 35.1416
+POC    1 QP 50 (I-frame)      68024 bits PSNR: 26.3984 34.5615 35.2469
+POC    0 QP 50 (I-frame)      68520 bits PSNR: 26.4226 34.5119 35.3421
+POC    1 QP 50 (I-frame)      67800 bits PSNR: 26.4383 34.6175 35.3723
+POC    0 QP 50 (I-frame)      66848 bits PSNR: 26.4891 34.6186 35.3995
+POC    1 QP 50 (I-frame)      66824 bits PSNR: 26.4611 34.6861 35.3753
+POC    0 QP 50 (I-frame)      66056 bits PSNR: 26.5169 34.6267 35.4286
+POC    1 QP 50 (I-frame)      66384 bits PSNR: 26.5580 34.5973 35.2971
+POC    0 QP 50 (I-frame)      66840 bits PSNR: 26.5881 34.6812 35.2747
+POC    1 QP 50 (I-frame)      66152 bits PSNR: 26.6233 34.6763 35.3773
+POC    0 QP 50 (I-frame)      65872 bits PSNR: 26.6559 34.6506 35.4096
+POC    1 QP 50 (I-frame)      64952 bits PSNR: 26.6541 34.6688 35.4753
+POC    0 QP 50 (I-frame)      64536 bits PSNR: 26.7347 34.7026 35.3534
+POC    1 QP 50 (I-frame)      64776 bits PSNR: 26.7346 34.6921 35.3220
+POC    0 QP 50 (I-frame)      64776 bits PSNR: 26.8080 34.6857 35.4494
+POC    1 QP 50 (I-frame)      64704 bits PSNR: 26.8476 34.7113 35.4568
+POC    0 QP 50 (I-frame)      63816 bits PSNR: 26.8689 34.8115 35.3753
+POC    1 QP 50 (I-frame)      63584 bits PSNR: 26.8738 34.7233 35.4877
+POC    0 QP 50 (I-frame)      62560 bits PSNR: 26.8694 34.7652 35.6015
+POC    1 QP 50 (I-frame)      63056 bits PSNR: 26.8849 34.8172 35.6225
+POC    0 QP 50 (I-frame)      62568 bits PSNR: 26.8835 34.7778 35.5301
+POC    1 QP 50 (I-frame)      62736 bits PSNR: 26.9252 34.7484 35.6250
+POC    0 QP 50 (I-frame)      63224 bits PSNR: 26.8857 34.7270 35.5605
+POC    1 QP 50 (I-frame)      63192 bits PSNR: 26.9200 34.7259 35.5764
+POC    0 QP 50 (I-frame)      62600 bits PSNR: 26.9238 34.7314 35.5748
+POC    1 QP 50 (I-frame)      62352 bits PSNR: 26.9380 34.7927 35.5758
+POC    0 QP 50 (I-frame)      62624 bits PSNR: 26.9310 34.7584 35.5512
+POC    1 QP 50 (I-frame)      62104 bits PSNR: 26.9665 34.7588 35.6850
+POC    0 QP 50 (I-frame)      62008 bits PSNR: 26.9575 34.7119 35.6594
+POC    1 QP 50 (I-frame)      62272 bits PSNR: 27.0005 34.7545 35.5369
+POC    0 QP 50 (I-frame)      62120 bits PSNR: 27.0587 34.7752 35.5950
+POC    1 QP 50 (I-frame)      61912 bits PSNR: 27.0256 34.7630 35.7229
+POC    0 QP 50 (I-frame)      61200 bits PSNR: 27.1210 34.7304 35.5499
+POC    1 QP 50 (I-frame)      61816 bits PSNR: 27.1077 34.8438 35.7838
+POC    0 QP 50 (I-frame)      61536 bits PSNR: 27.0872 34.7918 35.6223
+POC    1 QP 50 (I-frame)      61984 bits PSNR: 27.1027 34.6634 35.5390
+POC    0 QP 50 (I-frame)      61800 bits PSNR: 27.0743 34.7444 35.6642
+POC    1 QP 50 (I-frame)      62304 bits PSNR: 27.1049 34.7416 35.5264
+POC    0 QP 50 (I-frame)      61696 bits PSNR: 27.1237 34.7406 35.7566
+POC    1 QP 50 (I-frame)      61568 bits PSNR: 27.1411 34.7612 35.7598
+POC    0 QP 50 (I-frame)      60768 bits PSNR: 27.1924 34.8792 35.7288
+POC    1 QP 50 (I-frame)      60704 bits PSNR: 27.2456 34.7195 35.7092
+POC    0 QP 50 (I-frame)      59872 bits PSNR: 27.2724 34.8295 35.8053
+POC    1 QP 50 (I-frame)      60776 bits PSNR: 27.2955 34.8773 35.8298
+POC    0 QP 50 (I-frame)      59856 bits PSNR: 27.3264 34.9357 35.8772
+POC    1 QP 50 (I-frame)      59816 bits PSNR: 27.3052 34.9224 35.8888
+POC    0 QP 50 (I-frame)      59744 bits PSNR: 27.3099 34.9236 35.8475
+POC    1 QP 50 (I-frame)      59480 bits PSNR: 27.2551 34.9786 35.6954
+POC    0 QP 50 (I-frame)      60424 bits PSNR: 27.2929 34.9538 35.7192
+POC    1 QP 50 (I-frame)      60040 bits PSNR: 27.2759 34.9143 35.6974
+POC    0 QP 50 (I-frame)      60128 bits PSNR: 27.2370 34.8577 35.7670
+POC    1 QP 50 (I-frame)      60320 bits PSNR: 27.3197 34.8440 35.6963
+POC    0 QP 50 (I-frame)      60232 bits PSNR: 27.2645 34.8861 35.7946
+POC    1 QP 50 (I-frame)      59856 bits PSNR: 27.3182 34.7983 35.7400
+POC    0 QP 50 (I-frame)      59856 bits PSNR: 27.2993 34.8227 35.7461
+POC    1 QP 50 (I-frame)      60248 bits PSNR: 27.3048 34.8917 35.7063
+POC    0 QP 50 (I-frame)      59672 bits PSNR: 27.3503 34.9072 35.8820
+POC    1 QP 50 (I-frame)      59872 bits PSNR: 27.3248 34.9631 35.7213
+POC    0 QP 50 (I-frame)      59904 bits PSNR: 27.3262 34.9204 35.8253
+POC    1 QP 50 (I-frame)      60552 bits PSNR: 27.3376 34.8646 35.8282
+POC    0 QP 50 (I-frame)      60264 bits PSNR: 27.3037 35.0016 35.7081
+POC    1 QP 50 (I-frame)      60104 bits PSNR: 27.2924 34.9033 35.7058
+POC    0 QP 50 (I-frame)      59664 bits PSNR: 27.2753 34.8748 35.8617
+POC    1 QP 50 (I-frame)      59944 bits PSNR: 27.3017 34.8637 35.7992
+POC    0 QP 50 (I-frame)      59792 bits PSNR: 27.3353 34.8929 35.8108
+POC    1 QP 50 (I-frame)      59456 bits PSNR: 27.2873 35.0010 35.7819
+POC    0 QP 50 (I-frame)      60136 bits PSNR: 27.3039 34.8958 35.7627
+POC    1 QP 50 (I-frame)      59824 bits PSNR: 27.3471 34.7327 35.6492
+POC    0 QP 50 (I-frame)      59784 bits PSNR: 27.3337 34.7702 35.6609
+POC    1 QP 50 (I-frame)      59920 bits PSNR: 27.3543 34.8096 35.7482
+POC    0 QP 50 (I-frame)      59960 bits PSNR: 27.3479 34.9475 35.7859
+POC    1 QP 50 (I-frame)      59504 bits PSNR: 27.3236 34.8718 35.7546
+POC    0 QP 50 (I-frame)      59080 bits PSNR: 27.3430 34.8786 35.7202
+POC    1 QP 50 (I-frame)      59160 bits PSNR: 27.3906 34.9369 35.7335
+POC    0 QP 50 (I-frame)      59056 bits PSNR: 27.4070 34.9388 35.8262
+POC    1 QP 50 (I-frame)      58512 bits PSNR: 27.4588 35.0428 35.9428
+POC    0 QP 50 (I-frame)      57872 bits PSNR: 27.4924 34.9962 35.9365
+POC    1 QP 50 (I-frame)      57440 bits PSNR: 27.5224 34.9382 36.0601
+POC    0 QP 50 (I-frame)      56984 bits PSNR: 27.5115 35.0727 35.9240
+POC    1 QP 50 (I-frame)      57440 bits PSNR: 27.5446 34.9883 36.0955
+POC    0 QP 50 (I-frame)      57368 bits PSNR: 27.5846 35.0933 35.9709
+POC    1 QP 50 (I-frame)      57160 bits PSNR: 27.5380 34.9930 35.8783
+POC    0 QP 50 (I-frame)      56920 bits PSNR: 27.5988 35.0229 36.0346
+POC    1 QP 50 (I-frame)      57544 bits PSNR: 27.5241 35.0950 35.9517
+POC    0 QP 50 (I-frame)      57480 bits PSNR: 27.5974 35.1043 35.8590
+POC    1 QP 50 (I-frame)      56832 bits PSNR: 27.5947 35.1137 36.0068
+POC    0 QP 50 (I-frame)      57312 bits PSNR: 27.6368 35.1221 36.0408
+POC    1 QP 50 (I-frame)      57696 bits PSNR: 27.6757 35.0130 35.8602
+POC    0 QP 50 (I-frame)      56864 bits PSNR: 27.6639 35.1095 35.9142
+POC    1 QP 50 (I-frame)      57024 bits PSNR: 27.6634 35.1318 35.7729
+POC    0 QP 50 (I-frame)      56856 bits PSNR: 27.6690 35.0452 35.9201
+POC    1 QP 50 (I-frame)      57248 bits PSNR: 27.7207 35.1108 36.0833
+POC    0 QP 50 (I-frame)      57224 bits PSNR: 27.6897 35.0089 35.9458
+POC    1 QP 50 (I-frame)      57064 bits PSNR: 27.7147 35.1392 35.9726
+POC    0 QP 50 (I-frame)      56664 bits PSNR: 27.7621 35.1102 35.9696
+POC    1 QP 50 (I-frame)      55728 bits PSNR: 27.7695 35.2048 36.0358
+POC    0 QP 50 (I-frame)      56232 bits PSNR: 27.7716 35.2578 36.0434
+POC    1 QP 50 (I-frame)      55592 bits PSNR: 27.7855 35.1596 36.1637
+POC    0 QP 50 (I-frame)      56456 bits PSNR: 27.7766 35.1227 36.0389
+POC    1 QP 50 (I-frame)      55768 bits PSNR: 27.8401 35.1828 35.8784
+POC    0 QP 50 (I-frame)      55088 bits PSNR: 27.8074 35.2258 36.1456
+POC    1 QP 50 (I-frame)      55616 bits PSNR: 27.8404 35.1115 36.0554
+POC    0 QP 50 (I-frame)      55376 bits PSNR: 27.8151 35.1171 36.2453
+POC    1 QP 50 (I-frame)      54984 bits PSNR: 27.8226 35.1259 36.1901
+POC    0 QP 50 (I-frame)      54400 bits PSNR: 27.8749 35.1743 36.2171
+POC    1 QP 50 (I-frame)      54624 bits PSNR: 27.9221 35.1409 36.2575
+POC    0 QP 50 (I-frame)      53992 bits PSNR: 27.9674 35.1936 36.3452
+POC    1 QP 50 (I-frame)      52712 bits PSNR: 27.9585 35.2072 36.2099
+ Processed 120 frames,    7327640 bits AVG PSNR: 27.1663 34.8523 35.6987
+ Total CPU time: 29.068 s.
+ Encoding time: 29.065 s.
+ Encoding wall time: 30.633 s.
+ Encoding CPU usage: 94.88%
+ FPS: 3.92
+ENCODING STARTED AT: Fri Sep 15 10:40:04 EEST 2023
+ENCODING FINISHED AT: Fri Sep 15 10:40:35 EEST 2023
+USED QP 50
+SIZE OF THE INPUT FILE (KiB): 364500
+SIZE OF THE OUTPUT FILE (KiB): 894

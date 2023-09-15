@@ -1,7 +1,7 @@
 #insert file name of the sequence here
 SEQUENCE=mReadySteadyGo_1920x1080_120fps_420_8bit_YUV.yuv
 #insert QP value here
-QP=50
+QP=37
 #insert ID of your group here
 GID=23
 #The paths to the videos, both input and output
