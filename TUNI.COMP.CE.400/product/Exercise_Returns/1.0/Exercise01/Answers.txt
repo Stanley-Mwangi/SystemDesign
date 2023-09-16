@@ -68,4 +68,4 @@ Hint: Look at the source code at Kactus2 location TUNI.fi->ip.sw->Kvazaar->0.7.2
 ANSWER THE HOURS AS IF YOU WERE PAID FOR IT (we will not pay you, though)
 
 	GROUP MEMBER 1: 6 Hours
-	GROUP MEMBER 2:
+	GROUP MEMBER 2: 5 Hours
