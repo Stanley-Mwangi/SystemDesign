@@ -22,7 +22,7 @@ extern sc_event input_ready;
 extern sc_event output_valid;
 
 //How many nanoseconds it takes to access the shared memory
-#define MEMORY_DELAY 10
+#define MEMORY_DELAY 1
 
 //HOW MANY NANO SECONDS TAKES COMMUNICATION IN PROCESS1 -> PROCESS2
 #define P1_P2_DELAY LOAD /  I2C_SPEED
@@ -38,7 +38,7 @@ extern sc_event output_valid;
 #define LOAD 100
 
 //Speed of I2C bus ON THE PLATFORM
-#define I2C_SPEED 10
+#define I2C_SPEED AMBA_SPEED
 
 //Speed of AMBA bus ON THE PLATFORM
 #define AMBA_SPEED 30
@@ -48,8 +48,8 @@ extern sc_event output_valid;
 #define P4_PROCESS_CYCLES 1600
 
 //The processors of processes
-#define P1_PROCESSOR PORIN_HERTTA
-#define P4_PROCESSOR RAUMAN_AVAIN
+#define P1_PROCESSOR RAUMAN_AVAIN
+#define P4_PROCESSOR PORIN_HERTTA
 
 //Clock frequencies of the processors
 #define PORIN_HERTTA 400

@@ -33,18 +33,17 @@ the memory is likely used directly by CPU as in caches and DDR. Why speed of the
 	
 9. In this exercise, we had the option of directly affecting the memory speed.
 Why this may be difficult on real platforms?
-	In real systems, there are limitations on the speed of the actual components and also the buses used are fixed. Also it hard to swap components
-	to increase speed.
+	In real systems, there are limitations on the speed of the actual components. We can't reduce memory speed below a certain limit.
 
 10. What the was the final performance of your system? Answer this BEFORE the bonus section!
-	/// Have not yet found the final result/// for now 793 ns.
+	the simulation time was 137 ns
 
 11. What was hard? What was easy? 
 	tricky
 
 12. Fill the used hours below, including answering questions and any downtime:
 
-	GROUP MEMBER 1: Stanley 8 hours
+	GROUP MEMBER 1: 8 hours
 	GROUP MEMBER 2:
 	
 ***BONUS SECTION ANSWERS***

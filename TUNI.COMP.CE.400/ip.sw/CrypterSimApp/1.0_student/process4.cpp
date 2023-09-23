@@ -18,10 +18,10 @@ void process4::decrypt()
         //Undo the permutation.
         decrypted_value = ( decrypted_value << 16 ) + (uint16_t)( decrypted_value >> 16 );  
 
-        wait( P4_LATENCY, SC_NS); 
         //pass to testbench
         out_value = decrypted_value; 
         
+        wait( P4_LATENCY, SC_NS); 
         //notify that the output is valid
         output_valid.notify();
         wait();

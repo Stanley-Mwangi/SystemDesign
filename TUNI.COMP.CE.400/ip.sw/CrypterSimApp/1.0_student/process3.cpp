@@ -15,16 +15,14 @@ void process3::read_value ()
         } while ( read_enable == 0 );
 
         //read the shared Memory
-        read_value = memory->read( VALUE_INDEX );   
-        // write to fifo
-        fifo.write(read_value);
+        read_value = memory->read( VALUE_INDEX );        
         //set write enable
         memory->write( 0, ENABLE_INDEX ); 
-        // reset metadata
-        memory->write( 0, VALUE_INDEX );
-        
+        // write to fifo
+        fifo.write(read_value);
         //How long the fifo communication takes
         wait( P3_P4_DELAY, SC_NS );
+        
 	}
     
 }
