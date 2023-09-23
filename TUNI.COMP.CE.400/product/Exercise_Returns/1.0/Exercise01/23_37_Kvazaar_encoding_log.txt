@@ -1,5 +1,5 @@
 --owf=auto value set to 0.
-Input: /mnt/hgfs/COMP-CE-400-test-sequences/mReadySteadyGo_1920x1080_120fps_420_8bit_YUV.yuv, output: /mnt/hgfs/P/COMP-CE-400-videos/outputQP37.265
+Input: /home/student/COMP-CE-400-test-sequences/mReadySteadyGo_1920x1080_120fps_420_8bit_YUV.yuv, output: /home/student/COMP-CE-400-videos/outputQP37.265
   Video size: 1920x1080 (input=1920x1080)
 POC    0 QP 37 (I-frame)     342840 bits PSNR: 33.7105 38.6827 38.6412
 POC    1 QP 37 (I-frame)     341880 bits PSNR: 33.6987 38.7351 38.6413
@@ -122,13 +122,13 @@ POC    1 QP 37 (I-frame)     252688 bits PSNR: 35.6229 39.6610 40.0141
 POC    0 QP 37 (I-frame)     251800 bits PSNR: 35.6716 39.6301 40.0206
 POC    1 QP 37 (I-frame)     246984 bits PSNR: 35.6850 39.7034 40.0911
  Processed 120 frames,   35477256 bits AVG PSNR: 34.7322 39.1319 39.2365
- Total CPU time: 46.796 s.
- Encoding time: 46.775 s.
- Encoding wall time: 47.713 s.
- Encoding CPU usage: 98.03%
- FPS: 2.52
-ENCODING STARTED AT: Fri Sep 15 10:50:00 EEST 2023
-ENCODING FINISHED AT: Fri Sep 15 10:50:48 EEST 2023
+ Total CPU time: 99.977 s.
+ Encoding time: 99.969 s.
+ Encoding wall time: 98.611 s.
+ Encoding CPU usage: 101.38%
+ FPS: 1.22
+ENCODING STARTED AT: Fri Sep 15 15:45:18 EEST 2023
+ENCODING FINISHED AT: Fri Sep 15 15:46:56 EEST 2023
 USED QP 37
 SIZE OF THE INPUT FILE (KiB): 364500
 SIZE OF THE OUTPUT FILE (KiB): 4330

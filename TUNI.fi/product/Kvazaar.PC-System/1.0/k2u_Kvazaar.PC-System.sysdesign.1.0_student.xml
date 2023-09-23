@@ -19,9 +19,9 @@
 			<ipxact:componentRef vendor="TUNI.fi" library="ip.sw" name="Kvazaar" version="0.7.2"/>
 			<ipxact:vendorExtensions>
 				<kactus2:uuid>{20ac96fc-3683-465b-ab07-75a6d0798400}</kactus2:uuid>
+				<kactus2:position x="0" y="40"/>
 				<kactus2:fileSetRef>PC-System_Kvazaar_0_headers</kactus2:fileSetRef>
 				<kactus2:mapping hwRef="{a76f2486-cf2e-4899-b5f8-399ccbeb8e33}"/>
-				<kactus2:position x="0" y="40"/>
 			</ipxact:vendorExtensions>
 		</ipxact:componentInstance>
 	</ipxact:componentInstances>

@@ -1,33 +1,50 @@
 INCLUDE ANSWERS IN HERE
 
 1. What is the purpose of SystemC?
+	SystemC is a C++ library that enable system level modelling of digital systems which enables developers to test and optimize their design before
+	implementation.
 
 2. What does macro SC_MODULE do from user perspective?
+	Is a class that inherits the sc_module base class and is used to represent components in real systems, and mimicks their functionality in both 
+	state, structure , and behavior.
 
 3. What does macro SC_CTOR do from user perspective?
+	It is the default constructor of the SC_MODULE class objects and used to initialise module's name and other internal states.
 
 4. What is the difference between SC_THREAD, SC_METHOD, and SC_CTHREAD?
+	SC_THREAD - register a method in the simulation kernel that can be suspended using wait() function.
+	SC_MODULE - register a method in the simulation kernel that cannot be suspended, can't call wait.
+	SC_CTHREAD - register a method in the simulation kernel that can be suspended using wait()function, and has a static sensitivity of a clock edge 		event 
 
 5. Original model does not specify implementation for c1, c2, and v1.
 What was implementation of channels and the variable in this exercise?
+	The implementation of c1 and c2 is by using FIFO buffers which store the values after processing, while v1 uses a shared memory to store the data
+	before final decryption.
 
 6. What does the file test_bench.cpp do?
+	The test_bench.cpp is used to test whether the encryption and decryption code is done correctly and produce the right results.
 
 7. What is the purpose of the application GTKWave?
+	used to visualize the signal in a digital system over time to assist in debug
 	
 8. In this exercise, memory was merely used as an external storage. However, in practical computing
 the memory is likely used directly by CPU as in caches and DDR. Why speed of these is important?
+	It determines the wait time before the next process takes place. If the the speed is too slow, longer wait times and poor performance of entire 	system.
 	
 9. In this exercise, we had the option of directly affecting the memory speed.
 Why this may be difficult on real platforms?
+	In real systems, there are limitations on the speed of the actual components and also the buses used are fixed. Also it hard to swap components
+	to increase speed.
 
 10. What the was the final performance of your system? Answer this BEFORE the bonus section!
+	/// Have not yet found the final result/// for now 793 ns.
 
-11. What was hard? What was easy?
+11. What was hard? What was easy? 
+	tricky
 
 12. Fill the used hours below, including answering questions and any downtime:
 
-	GROUP MEMBER 1:
+	GROUP MEMBER 1: Stanley 8 hours
 	GROUP MEMBER 2:
 	
 ***BONUS SECTION ANSWERS***
