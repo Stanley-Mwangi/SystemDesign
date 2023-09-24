@@ -38,7 +38,7 @@ extern sc_event output_valid;
 #define LOAD 100
 
 //Speed of I2C bus ON THE PLATFORM
-#define I2C_SPEED AMBA_SPEED
+#define I2C_SPEED EXPRESSO_SPEED
 
 //Speed of AMBA bus ON THE PLATFORM
 #define AMBA_SPEED 30
@@ -49,10 +49,16 @@ extern sc_event output_valid;
 
 //The processors of processes
 #define P1_PROCESSOR RAUMAN_AVAIN
-#define P4_PROCESSOR PORIN_HERTTA
+#define P4_PROCESSOR KERAVAN_NAATA
 
 //Clock frequencies of the processors
 #define PORIN_HERTTA 400
 #define RAUMAN_AVAIN 100
+
+//Additional components
+#define LAITILAN_KANA 200
+#define SUPER_DECRYPTER 400
+#define KERAVAN_NAATA 250
+#define EXPRESSO_SPEED 50
 
 #endif
